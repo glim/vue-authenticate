@@ -30,7 +30,7 @@ rollup.rollup({
   return write('dist/vue-authenticate.es2015.js', bundle.generate({
     format: 'es',
     banner: banner,
-    footer: 'export { VueAuthenticate };'
+    footer: 'export { VueAuthenticate, OAuth2 };'
   }).code, bundle);
 })
 .then(function (bundle) {
