@@ -1508,4 +1508,4 @@ plugin.factory = function ($http, options) {
 };
 
 export default plugin;
-export { VueAuthenticate };
+export { VueAuthenticate, OAuth2 };
